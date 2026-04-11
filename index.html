@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ORAND AUTOS</title>
+
+<style>
+body{
+  font-family:Segoe UI,Arial;
+  margin:0;
+  background:#f8f8f5;
+}
+
+.container{
+  width:90%;
+  max-width:1200px;
+  margin:auto;
+}
+
+/* HEADER */
+header{
+  background:#fff;
+  border-bottom:1px solid #ddd;
+  padding:18px 0;
+}
+
+.nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.brand{
+  font-weight:700;
+  font-size:20px;
+}
+
+.tagline{
+  font-size:12px;
+  color:#777;
+}
+
+/* SECTION */
+section{
+  padding:70px 0;
+}
+
+h2{
+  text-align:center;
+  margin-bottom:10px;
+}
+
+/* 新增定位句 */
+.subtitle{
+  text-align:center;
+  color:#666;
+  margin-bottom:30px;
+  font-size:15px;
+}
+
+/* GALLERY */
+.gallery{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:15px;
+}
+
+.gallery img{
+  width:100%;
+  height:230px;
+  object-fit:cover;
+}
+
+/* CONTACT */
+.contact{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:30px;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:25px;
+  border-top:1px solid #ddd;
+  background:#fafafa;
+}
+
+/* FLOAT */
+.float{
+  position:fixed;
+  right:20px;
+  bottom:20px;
+}
+
+.float a{
+  display:block;
+  width:55px;
+  height:55px;
+  border-radius:50%;
+  text-align:center;
+  line-height:55px;
+  color:#fff;
+  margin-top:10px;
+}
+
+.phone{background:#888;}
+.whatsapp{background:#25d366;}
+
+@media(max-width:768px){
+  .gallery,.contact{
+    grid-template-columns:1fr;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container nav">
+<div>
+<div class="brand">ORAND AUTOS</div>
+<div class="tagline">Automotive Trade & Consulting | Sourcing & Coordination Agent</div>
+</div>
+</div>
+</header>
+
+<!-- GALLERY（主展示） -->
+<section>
+<div class="container">
+
+<h2>Gallery</h2>
+<div class="subtitle">
+Taiwan Used Auto Parts Sourcing & Export Support
+</div>
+
+<div class="gallery">
+<img src="img1.jpg">
+<img src="img2.jpg">
+<img src="img3.jpg">
+<img src="img4.jpg">
+</div>
+
+</div>
+</section>
+
+<!-- ABOUT -->
+<section>
+<div class="container">
+<h2>About</h2>
+
+<p style="max-width:700px;margin:auto;text-align:center;">
+We act as a sourcing & coordination agent, assisting international buyers in Taiwan automotive sourcing and export arrangement.
+</p>
+
+</div>
+</section>
+
+<!-- CONTACT -->
+<section>
+<div class="container contact">
+
+<div>
+<h2>Contact</h2>
+<p>Phone / WhatsApp: +886-912-331309</p>
+<p>Email: richinfluxtw@gmail.com</p>
+</div>
+
+<div>
+<p>
+We act solely as a sourcing & coordination agent.<br>
+We are not the seller, shipper, or carrier.
+</p>
+</div>
+
+</div>
+</section>
+
+<footer>
+<p>© 2026 ORAND AUTOS</p>
+</footer>
+
+<div class="float">
+<a href="tel:+886912331309" class="phone">☎</a>
+<a href="https://wa.me/886912331309" class="whatsapp">✆</a>
+</div>
+
+</body>
+</html>
